@@ -9,7 +9,6 @@ router.post('/register', registerUser);
 router.get('/current', getCurrentUser);
 router.put('/:_id', updateUser);
 router.delete('/:_id', deleteUser);
-//custom module
 module.exports = router;
 
 //Authenticating the user
